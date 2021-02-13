@@ -1,6 +1,7 @@
 ## COMANDOS FW FORTIGATE
 
 
+*** TROUBLESHOOTING
 *** ANÁLISE DE TRÁFEGO DE REDE ***
 
     diagnose sys session filter src 192.168.3.68
