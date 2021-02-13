@@ -1,5 +1,3 @@
 # DICAS_DE_TI
 DICAS_DE_TI
-
-
-SHHSUIASHUA3
+see documentation [here](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL)
