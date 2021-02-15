@@ -24,7 +24,7 @@ Acessar Clust Slave
     get system ha status
 
     Acessar o Cluster    
-    execute ha manage ID_CLUSTER
+    execute ha manage ID_CLUSTER   
 
 Balance entre os HA	       
     config system ha
