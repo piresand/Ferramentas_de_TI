@@ -36,7 +36,7 @@ Criar usuário sem a senha
     set accprofile super_admin
     end
 
-Verificar informações de Memoria, CPU e Disco      
+Verificar informações de Memoria, CPU e Disco         
     get hardware status
     diagnose sys top 1 45
     diagnose sys top-summary
