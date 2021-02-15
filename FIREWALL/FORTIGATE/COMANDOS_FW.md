@@ -8,6 +8,11 @@
     diagnose sys session clear
     diagnose sniffer packet any 'host 192.168.3.68' 
     diagnose sniffer packet any 'host 192.168.3.68 and icmp'
+ #### TCP RST packet on session timeout
+
+    config firewall policy
+    edit <ID>
+    set timeout-send-rst enable
     
 Ping    
 
