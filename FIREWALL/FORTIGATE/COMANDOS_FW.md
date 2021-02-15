@@ -49,15 +49,17 @@ Verificar informações de Memoria, CPU e Disco
     diagnose sys top-all
     get system performance status   
 #### CRIAR ROTA POR SSH     
+
     config router static
       edit 12
           set dst 172.16.254.0 255.255.255.0
     	set gateway 172.16.1.100
     	set device "lan"
           set comment "ACESSO FW-DNAT"
-       next
+       next   
     end   
 #### PRIORIDADE VPN NA SDWAN 
+
     config system virtual-wan-link 
     config members 
     edit (numero da interface que esta na sdwan)
