@@ -22,7 +22,7 @@ Tracert
 Acessar Clust Slave         
 
     Verificar o ID do Cluster  
-    get system ha status   
+    get system ha status    
 
     Acessar o Cluster    
     execute ha manage ID_CLUSTER      
