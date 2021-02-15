@@ -34,10 +34,23 @@
     102.14.10.0/18 via 180.16.70.50
     100.45.10.0/18 via 180.16.70.50
     189.113.14.36/32 via 180.16.70.50
-    
+
     *** NECESSÁRIO ALTERAR OS IPS CONFORME TOPOLOGIA ***
-##### ADICIONAR ROTA TEMPORÁRIA
+#### ADICIONAR ROTA TEMPORÁRIA
     route add -net 100.64.0.0/18 gw 180.16.70.50
     route add -net 100.64.64.0/18 gw 180.16.70.50
 
     *** NECESSÁRIO ALTERAR OS IPS CONFORME TOPOLOGIA ***
+# Comandos Básicos Asterisk (SSH)
+### Mostra as conexões SIP do asterisk – Ramais e troncos SIP   
+    sip show peers
+### Mostra o ramal com detalhes e se está autenticado ou não   
+     sip show peer + ramal 
+### Mostra os ramais e troncos que estão em ligação e presos   
+    core show channels verbose
+### Comando serve para derrubar o ramal que esta travado como se estive-se em ligação a horas   
+    soft hangup SIP/Ramal
+### Comando serve para monitor um único ramal desejado
+    rasterisk -vvv | grep "ramal"
+### Mostra o status dos agentes (este comando é apenas quando os usuários Logan na central)
+    show agents online
