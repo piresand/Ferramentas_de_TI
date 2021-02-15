@@ -38,4 +38,4 @@
     route add -net 100.64.0.0/18 gw 180.16.70.50
     route add -net 100.64.64.0/18 gw 180.16.70.50
 
-    
+*** NECESSÁRIO ALTERAR OS IPS CONFORME TOPOLOGIA ***
