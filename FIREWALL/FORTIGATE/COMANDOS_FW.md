@@ -20,23 +20,27 @@ Tracert
     execute traceroute 192.168.1.180
 
 Acessar Clust Slave         
+
     Verificar o ID do Cluster    
-    get system ha status
+    get system ha status   
 
     Acessar o Cluster    
     execute ha manage ID_CLUSTER      
 
-Balance entre os HA
+Balance entre os HA    
+
     config system ha
     set load-balance-all enable
 
 Criar usuário sem a senha    
+
     config system admin
     edit carlos.augusto
     set accprofile super_admin
     end
 
-Verificar informações de Memoria, CPU e Disco         
+Verificar informações de Memoria, CPU e Disco    
+
     get hardware status
     diagnose sys top 1 45
     diagnose sys top-summary
