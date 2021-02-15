@@ -20,6 +20,7 @@
     config members 
     edit (numero da interface que esta na sdwan)
     set priority 10 
-    end
+    end    
 
-OBS/: só precisará mexer se for criado uma nova VPN SDWAN
+
+    OBS/: só precisará mexer se for criado uma nova VPN SDWAN
