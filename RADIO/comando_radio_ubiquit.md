@@ -47,3 +47,22 @@
 
     touch /etc/persistent/ ls -la 
     ls -al
+
+    vi /tmp/system.cfg 
+#### Direcionamento de porta por SSH
+
+    iptables.sys.portfw.1.comment=EDITAR
+    iptables.sys.portfw.1.devname=ppp+
+    iptables.sys.portfw.1.dport=3389
+    iptables.sys.portfw.1.dst=0.0.0.0/0
+    iptables.sys.portfw.1.host=10.1.1.25 - IP CLIENTE
+    iptables.sys.portfw.1.port=3389
+    iptables.sys.portfw.1.proto=TCP
+    iptables.sys.portfw.1.src=0.0.0.0/0
+    iptables.sys.portfw.1.status=enabled
+
+    vi /tmp/system.cfg
+
+    i --> Edita 
+    esc --> Sai da Edição 
+    :wq --> Salva e Sai 
