@@ -33,3 +33,17 @@
     touch /etc/persistent/ct
     save
     reboot
+
+#### Remover worm
+
+    rm /etc/persistent/rc.poststart
+    rm /etc/persistent/mf.tar
+    rm -rf /etc/persistent/.skynet
+    rm -r /etc/persistent/.mf
+    cfgmtd -w -p /etc/
+    reboot      
+
+#### Conferimos com
+
+    touch /etc/persistent/ ls -la 
+    ls -al
