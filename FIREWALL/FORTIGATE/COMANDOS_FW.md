@@ -56,7 +56,7 @@ Verificar informações de Memoria, CPU e Disco
     	set device "lan"
           set comment "ACESSO FW-DNAT"
        next
-end
+    end   
 #### PRIORIDADE VPN NA SDWAN 
     config system virtual-wan-link 
     config members 
