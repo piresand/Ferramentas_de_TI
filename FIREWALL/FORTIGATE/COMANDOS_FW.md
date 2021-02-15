@@ -24,7 +24,7 @@ Tracert
     execute traceroute-options source 10.0.11.1
     execute traceroute 192.168.1.180
 
-Acessar Clust Slave         
+Acessar Cluster Slave         
 
     Verificar o ID do Cluster  
     get system ha status    
