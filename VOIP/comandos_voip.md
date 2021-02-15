@@ -12,7 +12,7 @@
     [root@ipbx backup]# rm -rf  backup-2019*
 #### VER STATUS DO BANCO DE DADOS   
     [root@ipbx backup]# /etc/rc.d/init.d/postgresql status
-#### STARTAR O SERVICO DO BANCO DE DADOS   
+#### INICIAR O SERVICO DO BANCO DE DADOS   
     [root@ipbx backup]# /etc/rc.d/init.d/postgresql start
 #### VER ARQUIVOS DE ROTINA DO LINUX   
     [root@ipbx scripts]# cat /etc/crontab
