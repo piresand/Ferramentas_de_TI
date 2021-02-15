@@ -2,9 +2,7 @@
 
 
 # TROUBLESHOOTING   
-
-*** ANÁLISE DE TRÁFEGO DE REDE ***    
-
+ #### ANÁLISE DE TRÁFEGO DE REDE   
    	diagnose sys session filter src 192.168.3.68
     diagnose sys session filter dst 192.168.3.68
     diagnose sys session clear
@@ -21,6 +19,5 @@
     edit (numero da interface que esta na sdwan)
     set priority 10 
     end    
-
 
     OBS/: só precisará mexer se for criado uma nova VPN SDWAN
