@@ -8,11 +8,41 @@
     diagnose sys session clear
     diagnose sniffer packet any 'host 192.168.3.68' 
     diagnose sniffer packet any 'host 192.168.3.68 and icmp'
-    diagnose sys top-summary
-    get system performance status 
-    diagnose sys top 1 45
-    get system startup-error-log
+    
+Ping    
 
+    execute ping-options source 10.0.1.1 
+    execute ping 172.31.11.180
+
+Tracert   
+ 
+    execute traceroute-options source 10.0.11.1
+    execute traceroute 192.168.1.180
+
+Acessar Clust Slave    
+	Verificar o ID do Cluster    
+    get system ha status
+
+	Acessaro Cluster   
+	execute ha manage ID_CLUSTER
+
+Balance entre os HA	     
+	config system ha
+	set load-balance-all enable
+
+
+Criar usuário sem a senha    
+	config system admin
+	edit carlos.augusto
+	set accprofile super_admin
+	end
+
+Verificar informações de Memoria, CPU e Disco    
+    get hardware status
+    diagnose sys top 1 45
+    diagnose sys top-summary
+    diagnose sys top-all
+    get system performance status
 #### PRIORIDADE VPN NA SDWAN 
     config system virtual-wan-link 
     config members 
@@ -30,6 +60,5 @@
 	    set fsso enable 
 	    set fsso-agent-for-ntlm AD 
  
-
 
     
