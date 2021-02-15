@@ -28,3 +28,14 @@
     [root@ipbx scripts]# du -h
 #### VER ARMAZENAMENTO DO DISCO   
     [root@ipbx scripts]# df -h
+#### ADICIONAR ROTA 
+    nano -w /etc/sysconfig/network-scripts/route-eth2
+
+    102.14.10.0/18 via 180.16.70.50
+    100.45.10.0/18 via 180.16.70.50
+    189.113.14.36/32 via 180.16.70.50
+##### ADICIONAR ROTA TEMPORÁRIA
+    route add -net 100.64.0.0/18 gw 180.16.70.50
+    route add -net 100.64.64.0/18 gw 180.16.70.50
+
+    
