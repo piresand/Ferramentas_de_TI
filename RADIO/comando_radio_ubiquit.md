@@ -8,7 +8,7 @@
     ifconfig br0 10.10.60.11 netmask 255.255.255.0 && route add default gw 10.10.60.1
 #### Adicionando IP de gerência SSH   
     XM.v5.3.5.# vi /tmp/system.cfg
-i (para editar
+    i (para editar
     netconf.1.alias.1.comment=
     netconf.1.alias.1.ip=10.100.60.113
     netconf.1.alias.1.netmask=255.255.255.0
@@ -19,7 +19,6 @@ i (para editar
     route.2.ip=172.16.254.0
     route.2.netmask=255.255.255.0
     route.2.status=enabled
-
 #### Mudar frequência ou outro parâmetro
     XM.v5.3.5.# vi /tmp/system.cfg
     i (para editar)
@@ -27,5 +26,10 @@ i (para editar
 
     esc
     :WQ
+    save
+    reboot
+#### Complice Test
+
+    touch /etc/persistent/ct
     save
     reboot
