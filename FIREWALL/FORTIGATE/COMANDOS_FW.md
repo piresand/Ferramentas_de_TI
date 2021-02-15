@@ -22,13 +22,13 @@
 
     OBS/: só precisará mexer se for criado uma nova VPN SDWAN
 
-#### CONFIGURAR AUTENTICAÇÃO FSSO EM POLICY
+#### CONFIGURAR AUTENTICAÇÃO FSSO EM POLICY   
 
-config firewall policy 
-	edit  32 (Nº da Politica)
-	set ntlm enable 
-	set fsso enable 
-	set fsso-agent-for-ntlm AD 
+    config firewall policy   
+    	edit  32 (Nº da Politica)
+    	set ntlm enable 
+	    set fsso enable 
+	    set fsso-agent-for-ntlm AD 
  
 
 
