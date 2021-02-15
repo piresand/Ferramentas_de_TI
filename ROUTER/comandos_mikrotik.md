@@ -1,5 +1,5 @@
 # COMANDOS MIKROTIK
-#### Criar IP na interface    
+#### Adicionar IP na Routerboard via CLI
 
 	ip address add address= 10.11.30.39/24 interface=ether5
 #### Criar VLAN   
@@ -10,7 +10,7 @@
 	ip route add dst-address=12.10.254.0/24 gateway=10.21.6.11
 #### Criar PPPoE Client    
 
-	interface pppoe-client add user=USUARIO_RADIUS_INTEGRATOR password=SENHA_RADIUS_INTEGRATOR interface=ether5
+	interface pppoe-client add user=USUARIO_RADIUS password=SENHA_RADIUS interface=ether5
 	interface pppoe-client enable number=0
 #### Problema: Cliente só acessa sites da google: Exceto cliente que está com pppoe na RB    
 
