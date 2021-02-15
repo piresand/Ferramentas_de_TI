@@ -26,7 +26,7 @@ Acessar Clust Slave
     Acessar o Cluster    
     execute ha manage ID_CLUSTER      
 
-Balance entre os HA   
+Balance entre os HA
     config system ha
     set load-balance-all enable
 
