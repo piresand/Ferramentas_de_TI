@@ -15,7 +15,7 @@
     diagnose sys top 1 45
     get system startup-error-log
 
-### PRIORIDADE VPN NA SDWAN 
+#### PRIORIDADE VPN NA SDWAN 
     config system virtual-wan-link 
     config members 
     edit (numero da interface que esta na sdwan)
