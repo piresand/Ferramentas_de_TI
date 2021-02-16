@@ -74,10 +74,10 @@ Verificar informações de Memoria, CPU e Disco
 #### CONFIGURAR AUTENTICAÇÃO FSSO EM POLICY   
 
     config firewall policy   
-    	edit  32 (Nº da Politica)
-    	set ntlm enable 
-	    set fsso enable 
-	    set fsso-agent-for-ntlm AD 
+   	edit  32 (Nº da Politica)
+   	set ntlm enable 
+	set fsso enable 
+	set fsso-agent-for-ntlm AD 
  
 
     
