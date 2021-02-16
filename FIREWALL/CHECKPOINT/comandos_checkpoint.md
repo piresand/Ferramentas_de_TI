@@ -3,6 +3,5 @@
  #### ANÁLISE DE TRÁFEGO DE REDE  
 
 
- ![Drag Racing](zero-trust-infiniti-complete-architecture-image-1.png)
+ ![zero-trust-infiniti-complete-architecture-image-1](zero-trust-infiniti-complete-architecture-image-1.png)
 
- 
