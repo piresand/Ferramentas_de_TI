@@ -58,8 +58,16 @@
 		A = Alterar senha do usuário
 		S= sair do fwadmin
 		I= incluir um novo usuário
-#### Comandos no root SUDO SU   
+#### Comandos no root SUDO SU    
 	# sudo su
 	fwcluster - mostra
-	fwcluster - habilita slave
+	fwcluster - habilita_slave
+	# killall -9  e_o_nome_processo
+#### fwpar Mostra Parâmetros globais   
+	/aker/bin/firewall $ sudo su
+	/aker/bin/firewall # fwpar 
+- Retorno:	
+* Parametros de seguranca
+* Parametros de configuracao de log
+* Parametros de configuracao de SNMP
 
