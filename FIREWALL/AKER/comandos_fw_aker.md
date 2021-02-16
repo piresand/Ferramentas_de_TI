@@ -60,6 +60,6 @@
 		I= incluir um novo usuário
 #### Comandos no root SUDO SU   
 	# sudo su
-	fwcluster mostra
-	fwcluster habilita slave
+	fwcluster - mostra
+	fwcluster - habilita slave
 
