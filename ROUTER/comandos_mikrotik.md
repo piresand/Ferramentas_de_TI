@@ -7,7 +7,7 @@
 	interface vlan add vlan-id=222 name=vlan222 interface=ether5
 #### Criar rota    
 
-	ip route add dst-address=12.10.254.0/24 gateway=10.21.6.11
+	ip route add dst-address=12.10.254.0/24 gateway=10.21.6.1
 #### Criar PPPoE Client    
 
 	interface pppoe-client add user=USUARIO_RADIUS password=SENHA_RADIUS interface=ether5
