@@ -40,7 +40,7 @@ Balance entre os HA
 Criar usuário sem a senha    
 
     config system admin
-    edit carlos.augusto
+    edit ronaldo.augusto
     set accprofile super_admin
     end
 
@@ -55,7 +55,7 @@ Verificar informações de Memoria, CPU e Disco
 
     config router static
     edit 12
-    set dst 172.16.254.0 255.255.255.0
+    set dst 182.168.224.0 255.255.255.0
     set gateway 172.16.1.100
     set device "lan"
     set comment "ACESSO FW-DNAT"
