@@ -1,9 +1,12 @@
 # COMANDOS RÁDIO UBIQUIT
 
-#### Forçar Update/Downgrade de FIRMWARE POR SSH   
+### Atualização de Firmware por SSH    
+##### Carregar a Firmware pela web    
+	ubntbox fwupdate.real -m /tmp/fwupdate.bin
 
-    ubntbox fwupdate.real -m /tmp/fwupdate.bin
-#### Adicionar IP de gerência SSH   
+#### Ver parâmetros do Rádio   
+	wstalist
+ #### Adicionar IP de gerência SSH   
     
     ifconfig br0 10.10.60.11 netmask 255.255.255.0 && route add default gw 10.10.60.1
 #### Adicionando IP de gerência SSH   
