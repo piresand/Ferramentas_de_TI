@@ -14,7 +14,6 @@
 	admin
 ##### Configurar hora   
 	killall -9 fwgenericstd fwscanlogd fwheartd
-
 	killall -9 fwconfd
 #### Cluster   
 	192.168.168.1/30 -- Master
@@ -31,7 +30,7 @@
 	akhwsig start
 	akhwsig restart
 #### Verificar consumo de processos e memória   
-    ps   -aux
+    ps -aux
 #### NTOP   
 	sudo su
 
@@ -48,6 +47,6 @@
 	akntopng start
 #### Corrigir problema de Hora Firewall AKER
 
-killall -9 fwgenericstd fwscanlogd fwheartd
-killall -9 fwconfd
+    killall -9 fwgenericstd fwscanlogd fwheartd
+    killall -9 fwconfd
 
