@@ -28,10 +28,10 @@
     [root@ipbx scripts]# du -h
 #### VER ARMAZENAMENTO DO DISCO   
     [root@ipbx scripts]# df -h
-#### Snifer de rede com tcpdump   
-[root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv
-[root@ipbx ~]# sudo tcpdump -i eth0 port 5060 
-[root@ipbx ~]# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
+#### SNIFFER COM TCPDUMP     
+    [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv   
+    [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 
+    [root@ipbx ~]# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
 #### ADICIONAR ROTA 
     nano -w /etc/sysconfig/network-scripts/route-eth2
 
