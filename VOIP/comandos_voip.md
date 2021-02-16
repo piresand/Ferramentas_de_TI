@@ -32,13 +32,10 @@
     nano -w /etc/sysconfig/network-scripts/route-eth2
 
     102.14.10.0/18 via 180.16.70.50
-    100.45.10.0/18 via 180.16.70.50
-    189.113.14.36/32 via 180.16.70.50
 
     *** NECESSÁRIO ALTERAR OS IPS CONFORME TOPOLOGIA ***
 #### ADICIONAR ROTA TEMPORÁRIA
     route add -net 100.60.0.0/18 gw 190.16.7.50
-    route add -net 100.60.64.0/18 gw 190.16.7.50
 
     *** NECESSÁRIO ALTERAR OS IPS CONFORME TOPOLOGIA ***
 # Comandos Básicos Asterisk (SSH)
