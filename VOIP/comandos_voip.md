@@ -22,7 +22,7 @@
     [root@ipbx ~]# cd /hdaux/utilitarios/scripts/
 #### RODAR COMANDO PARA UTILIZAR O SCRIPT NOVO   
     [root@ipbx scripts]# sh /hdaux/utilitarios/scripts/backup.sh
-#### VER ARQUIVO BACKUP.SH   
+#### VER ARQUIVO BACKUP SH   
     [root@ipbx scripts]# cat backup.sh
 #### VER TAMANHO DO DIRETORIO OU ARQUIVO   
     [root@ipbx scripts]# du -h
