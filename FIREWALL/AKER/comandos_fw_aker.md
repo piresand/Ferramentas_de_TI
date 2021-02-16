@@ -77,7 +77,7 @@
 	akav restart  (reinicia o antivirus)
 	awca restart (content analyser)
 	asm restar (spam meter)
-# VPN
+# VPN   
 #### VPN SITE-TO-SITE (FIREWALL/FIREWALL)	
 	-VERIFICAR EM CRIPTOGRAFIA 
   	- FIREWALL/FIREWALL
