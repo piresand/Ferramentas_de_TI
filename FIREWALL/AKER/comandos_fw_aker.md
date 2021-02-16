@@ -49,4 +49,17 @@
 
     killall -9 fwgenericstd fwscanlogd fwheartd
     killall -9 fwconfd
+#### Listar / Trocar ou Adicionar senha de Usuários   
+	/aker/bin/firewall $ sudo su
+	/aker/bin/firewall # akshell
+	>admin
+
+		L = listar usuários cadastrados
+		A = Alterar senha do usuário
+		S= sair do fwadmin
+		I= incluir um novo usuário
+#### Comandos no root SUDO SU   
+	# sudo su
+	fwcluster mostra
+	fwcluster habilita slave
 
