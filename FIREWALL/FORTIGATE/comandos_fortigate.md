@@ -79,5 +79,16 @@ Verificar informações de Memoria, CPU e Disco
 	set fsso enable 
 	set fsso-agent-for-ntlm AD 
  
+#### Lista todos hosts do DHCP lease
+    execute dhcp lease-list  
+#### Especifique por porta  
+    execute dhcp lease-list port1
+#### Use o seguinte comando para limpar a concessão do cliente com o endereço IP
+    execute dhcp lease-clear 192.168.1.5
 
-    
+#### Para limpar TODAS as concessões, use
+    execute dhcp lease-clear all
+#### O seguinte comando irá retornar com uma lista em branco ou menor
+    execute dhcp lease-list
+#### Para listar os IPS em V6, use o comando dhcp6
+    execute dhcp6 lease-list
