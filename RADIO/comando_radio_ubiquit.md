@@ -36,8 +36,7 @@
     touch /etc/persistent/ct
     save
     reboot
-
-#### Remover worm
+### Remover worm
 
     rm /etc/persistent/rc.poststart
     rm /etc/persistent/mf.tar
