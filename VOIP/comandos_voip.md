@@ -28,9 +28,9 @@
     [root@ipbx scripts]# du -h
 #### VER ARMAZENAMENTO DO DISCO   
     [root@ipbx scripts]# df -h
-##### LISTAR INFO DE TODAS AS MEMÓRIAS
+##### LISTAR INFO DE TODAS AS MEMÓRIAS  
 [root@ipbx ~]# cat /proc/meminfo
-#### LISTAR PROCESSOS EM USO, MEMÓRIA, UPTIME E CPU 
+#### LISTAR PROCESSOS EM USO, MEMÓRIA, UPTIME E CPU    
 [root@ipbx ~]# top 
 #### SNIFFER COM TCPDUMP     
     [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv   
