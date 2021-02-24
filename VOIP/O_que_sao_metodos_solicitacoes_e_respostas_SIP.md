@@ -23,10 +23,10 @@
 
 #### Exemplo:      
 
-#### Request:
+#### Uma Request:
     “Quero registrar o ramal 123”        
 
-#### Response:
+#### Uma Response:
     “Você não está autorizado”                              
 
 ### SIP Responses
