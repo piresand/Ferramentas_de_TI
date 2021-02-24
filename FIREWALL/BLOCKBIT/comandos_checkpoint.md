@@ -1,6 +1,4 @@
 # COMANDOS FW BLOCKBIT
-### TROUBLESHOOTING
-
 #### VER STATUS DOS SERVIÇOS
     admin  >service-status
 
