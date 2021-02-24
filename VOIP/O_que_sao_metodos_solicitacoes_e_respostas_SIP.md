@@ -49,7 +49,8 @@
     Informação de erro vinda do lado do servidor. Ex: 503 Service Unavailable.
 
     6XX
-    Informação de erros globais, não sendo necessariamente do lado do cliente ou do servidor, por exemplo quando o usuário destino recusa a chamada. Ex: 603 Decline.
+    Informação de erros globais, não sendo necessariamente do lado do cliente ou do servidor, 
+    por exemplo quando o usuário destino recusa a chamada. Ex: 603 Decline.
 
 #### Outras:
 
