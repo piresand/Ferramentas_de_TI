@@ -1,7 +1,5 @@
 # INSTALAÇÃO DO FORTICLIENT (6.4) VPN NO UBUNTU    
 
-![b8b3283ef3bb3e9cbe22543f918c9b97_icon](https://user-images.githubusercontent.com/30474126/109064795-37b05200-76c1-11eb-91ea-2652565683c8.png)
-
 #### Instalação via terminal linux       
 
     wget https://filestore.fortinet.com/forticlient/downloads/FortiClientFullVPNInstaller_6.4.0.0851.deb
