@@ -30,17 +30,17 @@
 
     As respostas para cada REQUEST são dadas em números de 3 dígitos e separadas por classes. São elas:
 
-    1XX    Informação temporária da chamada. Ex: 180 ringing, 100 Trying.
+    1XX Informação temporária da chamada. Ex: 180 ringing, 100 Trying.
 
-    2XX    Informação de sucesso. Ex: 200 OK.
+    2XX Informação de sucesso. Ex: 200 OK.
 
-    3XX    Informação sobre redirecionamento. Ex: 302 Moved Temporarily.
+    3XX Informação sobre redirecionamento. Ex: 302 Moved Temporarily.
 
-    4XX    Informação de erro vinda do lado do cliente. Ex: 401 Unauthorized.
+    4XX Informação de erro vinda do lado do cliente. Ex: 401 Unauthorized.
 
-    5XX    Informação de erro vinda do lado do servidor. Ex: 503 Service Unavailable.
+    5XX Informação de erro vinda do lado do servidor. Ex: 503 Service Unavailable.
 
-    6XX    Informação de erros globais, não sendo necessariamente do lado do cliente ou do servidor, 
+    6XX Informação de erros globais, não sendo necessariamente do lado do cliente ou do servidor, 
     por exemplo quando o usuário destino recusa a chamada. Ex: 603 Decline.
 
 #### Outras:
