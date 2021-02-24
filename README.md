@@ -1,8 +1,10 @@
 # DICAS_DE_TI
 
 #### FIREWALL  
-Fortigate [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/FORTIGATE)     
-Checkpoint [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/CHECKPOINT)   
+Aker [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/AKER)   
+Blockbit [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/BLOCKBIT)   
+Checkpoint [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/CHECKPOINT)  
+Fortigate [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/FORTIGATE)  
 #### ROUTER     
 Mikrotik [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/ROUTER/comandos_mikrotik.md)     
 #### VOIP   
