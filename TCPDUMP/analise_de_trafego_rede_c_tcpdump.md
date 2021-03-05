@@ -35,6 +35,7 @@
 	# |  |  |  |  |   
 	# *  *  *  *  *  comando de nome de usuário a ser executado      
 
+	Caso deseje utilizar o mês e semana através dos seus respectivos nomes, deve respeitar a ortografia da língua inglesa.
 	No crontab é importante que sempre a última linha fique em branco, ao incluir um novo agendamento quebre a linha no final.     
 	Isso evita um bug antigo da ferramenta.    
 
