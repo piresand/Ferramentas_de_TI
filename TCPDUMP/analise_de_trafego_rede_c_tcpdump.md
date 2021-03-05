@@ -17,8 +17,6 @@
 	O crontab possui seis colunas, que correspondem aos minutos, horas, dias, meses, semanas e, por fim, aos comandos 
 	que serão executados.  
 
-	![contrab](https://user-images.githubusercontent.com/30474126/110158642-0241ed80-7dc0-11eb-9a4e-8f1838c9f5ee.JPG)    
-
 	Minuto: Valores de 0 a 59 ou *   
 	Hora: Valores de 0 a 23 ou *     
 	Dia: Valores de 1 a 31 ou *   
