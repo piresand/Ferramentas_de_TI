@@ -12,4 +12,6 @@ Mikrotik [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/ROUTER/comando
 #### VOIP    
 Voip [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/VOIP)    
 #### Rádio    
-Ubiquiti [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/RADIO/comando_radio_ubiquit.md)     
+Ubiquiti [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/RADIO/comando_radio_ubiquit.md)      
+#### TCPDUMP   
+[aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/TCPDUMP)   
