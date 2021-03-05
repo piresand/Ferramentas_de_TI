@@ -12,7 +12,5 @@
     admin  >debug-vpn -t ipsec   
 #### VER TUNEL BGP     
     configure-bgp
-    
-    ~(senha: admin)
-
+        ~(senha: admin)
     fbb-cliente> show bgp summary   
