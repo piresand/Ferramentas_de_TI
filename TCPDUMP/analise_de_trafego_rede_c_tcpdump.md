@@ -6,13 +6,10 @@
 	30 17 * * * /usr/sbin/tcpdump -G 12600 -W 1 -s 3000 -w /home/ubuntu/capture-file.pcap port 5060 or portrange 10000-35000    
 #### Legenda de Flags do dump   
 
-	A flag -G indica o número de segundos para a execução do dump.    
-
-	Neste exemplo o dump é executado diariamente das 17h30 às 21h    
- 
-	O -W é o número de interações que o tcpdump executará.    
-
-	Este exemplo foi usado para capturar pacotes de um telefone Asterisk.   
+	- A flag -G indica o número de segundos para a execução do dump.    
+	- Neste exemplo o dump é executado diariamente das 17h30 às 21h    
+ 	- O -W é o número de interações que o tcpdump executará.    
+	- Este exemplo foi usado para capturar pacotes de um telefone Asterisk.   
 #### Entendendo o Crontab - Agendamento de tarefas em Linux
 
 	O crontab possui seis colunas, que correspondem aos minutos, horas, dias, meses, semanas e, por fim, aos comandos 
