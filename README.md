@@ -11,7 +11,7 @@ Fortigate [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/FIREWALL/FORT
 Mikrotik [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/ROUTER/comandos_mikrotik.md)      
 #### VOIP    
 Voip [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/VOIP)    
-#### Rádio    
+#### RÁDIO
 Ubiquiti [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/RADIO/comando_radio_ubiquit.md)      
 #### TCPDUMP    
 Tcpdump [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/TCPDUMP)    
