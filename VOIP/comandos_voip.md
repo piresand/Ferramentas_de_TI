@@ -10,6 +10,9 @@
 #### REMOVER ARQUIVOS    
     [root@ipbx backup]# rm -rf 2019*
     [root@ipbx backup]# rm -rf  backup-2019*
+#### LIMPAR MEMÓRIA DO IPBX      
+    [root@ipbx ~]# history | grep sync  
+    sync; echo 1 > /proc/sys/vm/drop_caches   
 #### VER STATUS DO BANCO DE DADOS   
     [root@ipbx backup]# /etc/rc.d/init.d/postgresql status
 #### INICIAR O SERVICO DO BANCO DE DADOS   
@@ -28,12 +31,27 @@
     [root@ipbx scripts]# du -h
 #### VER ARMAZENAMENTO DO DISCO   
     [root@ipbx scripts]# df -h
+#### LISTAR ARQUIVOS COM SIZE DE 20M    
+    [root@ipbx monitor]# find -size +20M   
+##### VER TAMANHO DO AUDIO    
+    [root@ipbx monitor]# du -h ./00000-1036642039-1608580417.1185033.WAV     
+    2.5G    ./00000-1036642039-1608580417.1185033.WAV    
 ##### LISTAR INFO DE TODAS AS MEMÓRIAS  
     [root@ipbx ~]# cat /proc/meminfo
-#### LISTAR PROCESSOS EM USO, MEMÓRIA, UPTIME E CPU    
-    [root@ipbx ~]# top 
-#### SNIFFER COM TCPDUMP     
-    [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv   
+#### LISTAR PROCESSOS EM USO, MEMÓRIA, UPTIME E CPU        
+    [root@ipbx ~]# top      
+#### ABRIR E EDITAR O SERVILÇO CONTRAB    
+    ~ # nano  /etc/crontab     
+#### CRIAR ROTINA DE LOGS NO CRONTAB COM TCPDUMP - DURAÇÃO DE 4Hrs    
+    #log interfones    
+    30 17 * * * root tcpdump -G 14400 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
+#### CRIAR ROTINA DE LOGS NO CRONTAB COM TCPDUMP - DURAÇÃO DE 24Hrs    
+    #log interfones    
+    00 11 * * * root tcpdump -G 86400 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
+#### APÓS CRIAR ROTINA, NECESSÁRIO REINICIAR O SERVICE DO CONTRAB
+    [root@ipbx ~]# service crond restart
+ #### SNIFFER COM TCPDUMP      
+    [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv    
     [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 
     [root@ipbx ~]# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
 #### ADICIONAR ROTA 
