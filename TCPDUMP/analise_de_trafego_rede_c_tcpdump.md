@@ -1,9 +1,21 @@
-#### Tenha permisão de root para acesso da crontab
+##### Captura de host específico   
+	sudo tcpdump -i eth1 src 192.168.112.32 -w /home/caputura_ramal_35002.pcapng   
+
+	Coleta do host 192.168.112.32, através da porta 1 e gravação da captura em formato .pcapng (wireshark)  
+##### Sniffer de rede com tcpdump
+
+	# sudo tcpdump -i eth0 port 5060 -vv
+	# sudo tcpdump -i eth0 port 5060 
+	# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
+	# sudo tcpdump -i eth1 src 192.168.113.31 -w /home/caputura_ramal_36001.pcapng
+	# sudo tcpdump -G 60 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1	
+#### Criação de rotina contrab - Tenha permisão de root para acesso da crontab    
 	sudo -i
 	crontab -e
-#### e então adicione a linha   
+#### e então adicione a linha    
+	#log interfones com agendador   
 
-	00 11 * * * root tcpdump -G 36000 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1   
+	00 11 * * * root tcpdump -G 36000 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
 #### Legenda de Flags do dump   
 
 	- A flag -G indica o número de segundos para a execução do dump.    
