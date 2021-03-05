@@ -22,7 +22,7 @@
 	- Neste exemplo o dump é executado diariamente às 11h, come duração de 10 hrs de coleta. 
 	- O -W é o número de interações que o tcpdump executará.    
 	- Este exemplo foi usado para capturar pacotes de um telefone Asterisk.   
-#### Entendendo o Crontab - Agendamento de tarefas em Linux
+#### Entendendo o Crontab - Agendamento de tarefas do Linux
 
 	O crontab possui seis colunas, que correspondem aos minutos, horas, dias, meses, semanas e, por fim, aos comandos 
 	que serão executados.  
