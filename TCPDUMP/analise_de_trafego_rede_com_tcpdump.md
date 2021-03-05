@@ -9,6 +9,8 @@
 	# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
 	# sudo tcpdump -i eth1 src 192.168.113.31 -w /home/caputura_ramal_36001.pcapng
 	# sudo tcpdump -G 60 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1	
+
+Referências [aqui](https://stackoverflow.com/questions/25731643/how-to-schedule-tcpdump-to-run-for-a-specific-period-of-time)	
 #### Criação de rotina contrab - Tenha permisão de root para acesso da crontab    
 	sudo -i
 	crontab -e
