@@ -1,4 +1,4 @@
-##### Captura de host específico   
+##### Captura de um host específico   
 	sudo tcpdump -i eth1 src 192.168.112.32 -w /home/caputura_ramal_35002.pcapng   
 
 	Coleta do host 192.168.112.32, através da porta 1 e gravação da captura em formato .pcapng (wireshark)  
