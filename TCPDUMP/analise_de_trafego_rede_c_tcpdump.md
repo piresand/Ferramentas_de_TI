@@ -1,10 +1,9 @@
 #### Tenha permisão de root para acesso da crontab
-sudo -i
-crontab -e
+	sudo -i
+	crontab -e
 #### e então adicione a linha   
 
 	30 17 * * * /usr/sbin/tcpdump -G 12600 -W 1 -s 3000 -w /home/ubuntu/capture-file.pcap port 5060 or portrange 10000-35000    
-
 #### Legenda de Flags do dump   
 
 	A flag #### -G #### indica o número de segundos para a execução do dump.    
@@ -15,7 +14,9 @@ crontab -e
 
 	Este exemplo foi usado para capturar pacotes de um telefone Asterisk.    
 
-	O crontab possui seis colunas, que correspondem aos minutos, horas, dias, meses, semanas e, por fim, aos comandos que serão executados.    
+	O crontab possui seis colunas, que correspondem aos minutos, horas, dias, meses, semanas e, por fim, aos comandos que serão executados.  
+
+	![contrab](https://user-images.githubusercontent.com/30474126/110158642-0241ed80-7dc0-11eb-9a4e-8f1838c9f5ee.JPG)
 
 	Minuto: Valores de 0 a 59 ou *   
 	Hora: Valores de 0 a 23 ou *     
