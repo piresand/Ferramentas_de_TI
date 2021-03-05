@@ -13,4 +13,4 @@
 #### VER TUNEL BGP     
     configure-bgp
     ~(senha: admin)
-    fbb-cliente> show bgp summary   
+    fbb-cliente> show bgp summary    
