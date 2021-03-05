@@ -3,12 +3,12 @@
 	crontab -e
 #### e então adicione a linha   
 
-	30 17 * * * /usr/sbin/tcpdump -G 12600 -W 1 -s 3000 -w /home/ubuntu/capture-file.pcap port 5060 or portrange 10000-35000    
+	00 11 * * * root tcpdump -G 36000 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1   
 #### Legenda de Flags do dump   
 
 	- A flag -G indica o número de segundos para a execução do dump.    
-	- Neste exemplo o dump é executado diariamente das 17h30 às 21h    
- 	- O -W é o número de interações que o tcpdump executará.    
+	- Neste exemplo o dump é executado diariamente às 11h, come duração de 10 hrs de coleta. 
+	- O -W é o número de interações que o tcpdump executará.    
 	- Este exemplo foi usado para capturar pacotes de um telefone Asterisk.   
 #### Entendendo o Crontab - Agendamento de tarefas em Linux
 
