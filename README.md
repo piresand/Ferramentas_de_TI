@@ -21,9 +21,6 @@ Tcpdump [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/TCPDUMP)
 
 
 
-#### LinkedIn
-
-![1590003577120](https://user-images.githubusercontent.com/30474126/111471046-db0fe800-86fe-11eb-82c1-396a8f4c3726.jpg)
-
+### LinkedIn
 
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="horizontal" data-theme="dark" data-vanity="andre-s-pires"><a class="LI-simple-link" href='https://br.linkedin.com/in/andre-s-pires?trk=profile-badge'>André Pires</a></div>
