@@ -15,3 +15,7 @@ Voip [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/VOIP)
 Ubiquiti [aqui](https://github.com/piresand/DICAS_DE_TI/blob/main/RADIO/comando_radio_ubiquit.md)      
 #### TCPDUMP    
 Tcpdump [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/TCPDUMP)    
+
+
+
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="horizontal" data-theme="dark" data-vanity="andre-s-pires"><a class="LI-simple-link" href='https://br.linkedin.com/in/andre-s-pires?trk=profile-badge'>André Pires</a></div>
