@@ -23,6 +23,7 @@ Tcpdump [aqui](https://github.com/piresand/DICAS_DE_TI/tree/main/TCPDUMP)
 
 #### LinkedIn
 
-![kisspng-linkedin-business-marketing-social-networking-serv-company-profile-5ac8b49c54a375 8797592515231028763467](https://user-images.githubusercontent.com/30474126/111470710-879d9a00-86fe-11eb-824a-282e5b883d38.jpg)
+![kisspng-linkedin-business-marketing-social-networking-serv-company-profile-5ac8b49c54a375 8797592515231028763467](https://user-images.githubusercontent.com/30474126/111470906-b582de80-86fe-11eb-9ed7-7c1de0bb616b.jpg)
+
 
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="horizontal" data-theme="dark" data-vanity="andre-s-pires"><a class="LI-simple-link" href='https://br.linkedin.com/in/andre-s-pires?trk=profile-badge'>André Pires</a></div>
