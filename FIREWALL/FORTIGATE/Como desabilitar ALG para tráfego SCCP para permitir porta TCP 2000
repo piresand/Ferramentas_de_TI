@@ -15,8 +15,6 @@ Solução:
 
 Segue abaixo os comandos necessários para desabilitar VoIP ALG para tráfego SCCP.
 
-![image](https://user-images.githubusercontent.com/30474126/114466880-0af3c380-9bb7-11eb-9ce4-ecf12a7663ed.png)
-
 #config voip profile
 (profile)#edit default
 (default)#config sccp
