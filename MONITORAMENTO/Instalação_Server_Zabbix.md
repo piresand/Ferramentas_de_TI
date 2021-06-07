@@ -112,6 +112,5 @@ http://seu_ip/zabbix
 User: Admin   
 Passw: zabbix ~ (Senha que vc criou)   
 
-![image](https://user-images.githubusercontent.com/30474126/121087018-e6305c80-c7b1-11eb-9813-94c723e7e6c6.png)   
-
+![image](https://user-images.githubusercontent.com/30474126/121088587-f8ab9580-c7b3-11eb-8fed-6363760e4265.png)
 
