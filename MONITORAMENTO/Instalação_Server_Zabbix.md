@@ -88,6 +88,8 @@ Editar o arquivo  zabbix_server.conf, onde ListenPort=10051 está comentado, ser
         Antes: #ListenPort=10051
         Depois: ListenPort=10051
 
+![image](https://user-images.githubusercontent.com/30474126/121088808-445e3f00-c7b4-11eb-96c6-620fe63dec4e.png)  
+
 Inicie o servidor Zabbix e os processos do agente  
 
     # systemctl enable zabbix-server zabbix-agent httpd php-fpm
