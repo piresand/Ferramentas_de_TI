@@ -77,7 +77,7 @@ Desabilitar o firewall e reiniciar o centos
 
     # systemctl disable firewalld.service   
 
-Acessar pasta  /etc/zabbix/
+Acessar pasta  /etc/zabbix/   
 
     # cd /etc/zabbix/
 
