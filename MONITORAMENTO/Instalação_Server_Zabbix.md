@@ -100,7 +100,7 @@ Confirme o status do agent e do Zabbix server
 
 ![image](https://user-images.githubusercontent.com/30474126/121086630-64403380-c7b1-11eb-9328-93631e3b5386.png)  
 
-Pronto, agora é só acessar o zabbix vi browser  
+Pronto, agora é só acessar o zabbix pelo browser  
 
 http://localhost/zabbix    
 
