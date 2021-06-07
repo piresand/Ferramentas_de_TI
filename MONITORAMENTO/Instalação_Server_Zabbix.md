@@ -65,7 +65,7 @@ Desabilitar o selinux
     # vim /etc/selinux/config   
 
 Alterar a linha do selinux para disabled   
-   # SELINUX=disabled  
+    # SELINUX=disabled  
 
 Desabilitar o firewall e reiniciar o centos   
 
