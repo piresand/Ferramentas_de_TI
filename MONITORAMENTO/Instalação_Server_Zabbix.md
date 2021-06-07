@@ -96,11 +96,12 @@ Inicie o servidor Zabbix e os processos do agente
     # systemctl restart zabbix-agent.service
 
 Confirme o status do agent e do Zabbix server  
-# systemctl status zabbix-agent.service  
+
+    # systemctl status zabbix-agent.service  
 
 ![image](https://user-images.githubusercontent.com/30474126/121086766-918ce180-c7b1-11eb-8662-6f965d17a616.png)  
 
-# systemctl status zabbix-server.service  
+    # systemctl status zabbix-server.service  
 
 ![image](https://user-images.githubusercontent.com/30474126/121086630-64403380-c7b1-11eb-9328-93631e3b5386.png)  
 
