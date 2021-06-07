@@ -14,13 +14,13 @@ BANCO DE DADOS: MySQL
 WEB SERVER: Apache   
   
 ## INSTALAÇÃO DO ZABBIX SERVER ##   
-- Instale o repositório Zabbix   
+Instale o repositório Zabbix   
 
 #~ rpm -Uvh https://repo.zabbix.com/zabbix/5.0/rhel/8/x86_64/zabbix-release-5.0-1.el8.noarch.rpm   
 
-#~ dnf clean all   
+    #~ dnf clean all   
 
-- Instale o servidor, o frontend e o agente Zabbix   
+Instale o servidor, o frontend e o agente Zabbix   
 
 #~ dnf install zabbix-server-mysql zabbix-web-mysql zabbix-apache-conf zabbix-agent mariadb-server   
 
