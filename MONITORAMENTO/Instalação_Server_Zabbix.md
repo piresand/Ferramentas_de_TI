@@ -7,12 +7,12 @@ Fonte de instalação Zabbix: https://www.zabbix.com/br/download?zabbix=5.0&os_d
 #### Instalação do Zabbix Server 
 
 ## DOCUMENTAÇÃO ##
-VERSÃO DO ZABBIX: 5.0 LTS
-DISTRIBUIÇÃO DE SO: CentOS 
-VERSÃO DE SO: 8 
-BANCO DE DADOS: MySQL
-WEB SERVER: Apache
-
+VERSÃO DO ZABBIX: 5.0 LTS   
+DISTRIBUIÇÃO DE SO: CentOS   
+VERSÃO DE SO: 8   
+BANCO DE DADOS: MySQL   
+WEB SERVER: Apache   
+  
 ## INSTALAÇÃO DO ZABBIX SERVER ## 
 - Instale o repositório Zabbix
 
