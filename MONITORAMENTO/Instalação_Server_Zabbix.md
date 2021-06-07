@@ -79,7 +79,7 @@ Desabilitar o firewall e reiniciar o centos
 
 Acessar pasta  /etc/zabbix/
 
-#  cd /etc/zabbix/
+    # cd /etc/zabbix/
 
 Editar o arquivo  zabbix_server.conf, onde ListenPort=10051 está comentado, será necessário remover #  
 
