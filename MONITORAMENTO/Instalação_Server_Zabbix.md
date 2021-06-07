@@ -24,11 +24,11 @@ Instale o servidor, o frontend e o agente Zabbix
 
 #~ dnf install zabbix-server-mysql zabbix-web-mysql zabbix-apache-conf zabbix-agent mariadb-server   
 
-- Iniciar o banco de dado Mariadb  
+Iniciar o banco de dado Mariadb  
 
 #~ systemctl start mariadb.service   
 
-- Configurar o banco para iniciar com o sistema operacional automaticamente  
+Configurar o banco para iniciar com o sistema operacional automaticamente  
 
 #~ systemctl enable mariadb.service   
 
