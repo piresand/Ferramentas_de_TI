@@ -63,7 +63,11 @@ Configure o banco de dados para o servidor Zabbix, edite o arquivo /etc/zabbix/z
 
 Configure o PHP para o frontend Zabbix, edite o arquivo /etc/php-fpm.d/zabbix.conf, descomente e defina o fuso horário conforme sua região.   
 
+![image](https://user-images.githubusercontent.com/30474126/121089535-496fbe00-c7b5-11eb-9f79-61d21e3250d9.png)  
+
     # php_value[date.timezone] = America/Cuiaba  
+    
+![image](https://user-images.githubusercontent.com/30474126/121089903-d0249b00-c7b5-11eb-9284-d6daefd57e41.png)
 
 Desabilitar o selinux   
 
