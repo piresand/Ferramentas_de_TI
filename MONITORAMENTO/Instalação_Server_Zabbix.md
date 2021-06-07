@@ -2,10 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/30474126/121080549-8cc42f80-c7a9-11eb-9e70-f3ad1137b502.png) 
 
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="pt_BR" data-type="horizontal" data-theme="dark" data-vanity="andre-s-pires"><a class="LI-simple-link" href='https://www.zabbix.com/br/download?zabbix=5.0&os_distribution=centos&os_version=8&db=mysql&ws=apache'>Zabbix</a></div>
-
-
-Fonte de instalação Zabbix: https://www.zabbix.com/br/download?zabbix=5.0&os_distribution=centos&os_version=8&db=mysql&ws=apache
+Fonte de instalação Zabbix: [Aqui] (https://www.zabbix.com/br/download?zabbix=5.0&os_distribution=centos&os_version=8&db=mysql&ws=apache)
 
 #### Instalação do Zabbix Server 
 
