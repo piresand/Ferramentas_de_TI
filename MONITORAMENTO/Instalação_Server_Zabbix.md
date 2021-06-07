@@ -7,13 +7,14 @@ Fonte de instalação Zabbix [aqui](https://www.zabbix.com/br/download?zabbix=5.
 #### Instalação do Zabbix Server 
 
 ## DOCUMENTAÇÃO ##
-VERSÃO DO ZABBIX: 5.0 LTS   
-DISTRIBUIÇÃO DE SO: CentOS   
-VERSÃO DE SO: 8   
-BANCO DE DADOS: MySQL   
-WEB SERVER: Apache   
+Versão do Zabbix: 5.0 LTS   
+Distribuição de S.O: CentOS   
+Versão de S.O: 8   
+Banco de Dados: MySQL   
+Web Server: Apache   
   
 ## INSTALAÇÃO DO ZABBIX SERVER ##   
+
 Instale o repositório Zabbix   
 
     # rpm -Uvh https://repo.zabbix.com/zabbix/5.0/rhel/8/x86_64/zabbix-release-5.0-1.el8.noarch.rpm   
@@ -72,5 +73,39 @@ Desabilitar o firewall e reiniciar o centos
 
     # systemctl disable firewalld.service   
 
+Acessar pasta  /etc/zabbix/
 
+#  cd /etc/zabbix/
+
+Editar o arquivo  zabbix_server.conf, onde ListenPort=10051 está comentado, será necessário remover #  
+
+    # vim zabbix_server.conf
+
+        Antes: #ListenPort=10051
+        Depois: ListenPort=10051
+
+Inicie o servidor Zabbix e os processos do agente  
+
+    # systemctl enable zabbix-server zabbix-agent httpd php-fpm
+    # systemctl restart zabbix-server zabbix-agent httpd php-fpm
+    # systemctl restart zabbix-server.service
+    # systemctl restart zabbix-agent.service
+
+Confirme o status do agent e do Zabbix server  
+# systemctl status zabbix-agent.service  
+
+![image](https://user-images.githubusercontent.com/30474126/121086766-918ce180-c7b1-11eb-8662-6f965d17a616.png)  
+
+# systemctl status zabbix-server.service  
+
+![image](https://user-images.githubusercontent.com/30474126/121086630-64403380-c7b1-11eb-9328-93631e3b5386.png)  
+
+Pronto, agora é só acessar o zabbix vi browser  
+
+http://localhost/zabbix    
+
+User: Admin   
+Passw: zabbix ~ (Senha que vc criou)   
+
+![image](https://user-images.githubusercontent.com/30474126/121087018-e6305c80-c7b1-11eb-9813-94c723e7e6c6.png)   
 
