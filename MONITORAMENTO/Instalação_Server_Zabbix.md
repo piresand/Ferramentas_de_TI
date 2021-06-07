@@ -35,6 +35,8 @@ Configurar o banco para iniciar com o sistema operacional automaticamente
 Verificar status do banco   
 
     # systemctl status mariadb.service  
+
+![image](https://user-images.githubusercontent.com/30474126/121087473-7f5f7300-c7b2-11eb-92a6-2dda29321f3f.png)
    
 Configurar a segurança do Banco de Dados  
 
@@ -56,6 +58,8 @@ No servidor do Zabbix, importe o esquema inicial e os dados.
 Configure o banco de dados para o servidor Zabbix, edite o arquivo /etc/zabbix/zabbix_server.conf   
 
     # DBPassword=password (Colocar sua senha)  
+
+![image](https://user-images.githubusercontent.com/30474126/121087834-eaa94500-c7b2-11eb-8910-0089e6a86c06.png)
 
 Configure o PHP para o frontend Zabbix, edite o arquivo /etc/php-fpm.d/zabbix.conf, descomente e defina o fuso horário conforme sua região.   
 
