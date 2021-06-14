@@ -117,7 +117,7 @@ Passw: zabbix ~ (Senha que vc criou)
 ![image](https://user-images.githubusercontent.com/30474126/121088587-f8ab9580-c7b3-11eb-8fed-6363760e4265.png)
 
 
-#### Lista de comandos úteis Linux
+##### Lista de comandos úteis Linux
 
 - ls => Lista todos os arquivos do diretório.
 
@@ -125,7 +125,7 @@ Passw: zabbix ~ (Senha que vc criou)
 
 - top =>​ Mostra o uso da memória.
 
-c- d =>​ Acessa uma determinada pasta (diretório).
+- cd =>​ Acessa uma determinada pasta (diretório).
 
 - mkdir =>​ Cria um diretório.
 
