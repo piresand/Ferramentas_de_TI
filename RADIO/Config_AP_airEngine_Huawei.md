@@ -42,24 +42,24 @@ Acessar a Controladora e configurar o AP
 
 Configurações a serem habilitadas na Cloud referente à adoção dos AP;
 
-HABILITAR SEMPRE
-DNS snooping:  (Previne ataque de dns e identificação dos ativos)
-mDNS snooping:  (Orientado para identificação de apple)
-Band steering (5G-prioritized): (Priorização do 5G)
-User isolation: (Separar os usuários para não se verem)
-IGMP snooping: (Controle de multicast na rede)
-Multicast-to-unicast conversion:   Auto
-U-APSD: (Controle de pós save)
-802.11r fast roaming: Enable Disable (fara o roaming dos APs mais rápido)
-802.11r over the DS:  (Gerenciar quem não possuir a tecnologia 11r)
-Device-pipe collaborative roaming:  (faz interação entre o AP e o client para ficar automático)
+SEMPRE HABILITAR  
+DNS snooping:  (Previne ataque de dns e identificação dos ativos)   
+mDNS snooping:  (Orientado para identificação de apple)  
+Band steering (5G-prioritized): (Priorização do 5G)   
+User isolation: (Separar os usuários para não se verem)   
+IGMP snooping: (Controle de multicast na rede)   
+Multicast-to-unicast conversion:   Auto   
+U-APSD: (Controle de pós save)    
+802.11r fast roaming: Enable Disable (fara o roaming dos APs mais rápido)   
+802.11r over the DS:  (Gerenciar quem não possuir a tecnologia 11r)    
+Device-pipe collaborative roaming:  (faz interação entre o AP e o client para ficar automático)   
 
 NEXT 
-  Semi-open network
-  Key:  (Set)
+  Semi-open network   
+  Key:  (Set)    
 
-NEXT (coleta estatísticas de tráfego)
-  Application traffic statistics collection:
+NEXT (coleta estatísticas de tráfego)    
+  Application traffic statistics collection:   
  
 Baixar Firmwares:
 https://support.huawei.com/enterprise/en/wlan/airengine-6760-x1-pid-250566599/software?offeringId=250400201
