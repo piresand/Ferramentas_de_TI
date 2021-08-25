@@ -110,7 +110,7 @@ NEXT
 
 NEXT (coleta estatísticas de tráfego)    
 
-    Application traffic statistics collection:   
+    Application traffic statistics collection   
     
     
 Baixar Firmwares: https://support.huawei.com/enterprise/en/wlan/airengine-6760-x1-pid-250566599/software?offeringId=250400201   
