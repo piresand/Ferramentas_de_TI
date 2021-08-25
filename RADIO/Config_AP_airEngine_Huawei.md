@@ -2,57 +2,57 @@
 
 Primeiro acesso
 
-  IP DEFAULT: 169.254.1.2/24   
-  USER: admin   
-  PASSWORD: admin@huawei.com     
+    IP DEFAULT: 169.254.1.2/24   
+    USER: admin   
+    PASSWORD: admin@huawei.com     
  
 Equivalente ao comando Enable   
-  <Huawei>sy   
+   <Huawei>sy   
 
 Ver o Serial number
-  display sn   
-  display esn  
+   display sn   
+   display esn  
 
 Retorno do comando  
-  SN: 2102353GSJ6RLC001169   
+   SN: 2102353GSJ6RLC001169   
   
 Alterando o modo firmware para modo Nuvem (Esse modo reseta o AP)
-  ap-mode-switch cloud
-  Y
+    ap-mode-switch cloud
+    Y
 
 Enable:
-  sy
+    sy
 
 Será necessário recriar as senhas, pois o comando (ap-mode-switch cloud) anterior resetou.
 Adoção e conexão para Cloud
-  cloud-mng controller url dev-br.naas.huaweicloud.com port 10020
+    cloud-mng controller url dev-br.naas.huaweicloud.com port 10020
 
 Habilitando A CLOUD QUE ESTAVA DESABILITADA
-  undo cloud-mng register-center disable
-  quit
-  save
-  reboot 
+    undo cloud-mng register-center disable
+    quit
+    save
+    reboot 
 
 Acessar a Controladora e configurar o AP
-  https://br.naas.huaweicloud.com/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252FcampusNCE%252FcampusNCEIndex.html
+   https://br.naas.huaweicloud.com/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252FcampusNCE%252FcampusNCEIndex.html
 
   Informações úteis;
-***O AP suporta até 16 SSIDs
-***1000 user simultâneos (max teórico, recomendado 100 users)
+    ***O AP suporta até 16 SSIDs
+    ***1000 user simultâneos (max teórico, recomendado 100 users)
 
 Configurações a serem habilitadas na Cloud referente à adoção dos AP;
 
 SEMPRE HABILITAR  
-DNS snooping:  (Previne ataque de dns e identificação dos ativos)   
-mDNS snooping:  (Orientado para identificação de apple)  
-Band steering (5G-prioritized): (Priorização do 5G)   
-User isolation: (Separar os usuários para não se verem)   
-IGMP snooping: (Controle de multicast na rede)   
-Multicast-to-unicast conversion:   Auto   
-U-APSD: (Controle de pós save)    
-802.11r fast roaming: Enable Disable (fara o roaming dos APs mais rápido)   
-802.11r over the DS:  (Gerenciar quem não possuir a tecnologia 11r)    
-Device-pipe collaborative roaming:  (faz interação entre o AP e o client para ficar automático)   
+    DNS snooping:  (Previne ataque de dns e identificação dos ativos)   
+    mDNS snooping:  (Orientado para identificação de apple)  
+    Band steering (5G-prioritized): (Priorização do 5G)   
+    User isolation: (Separar os usuários para não se verem)   
+    IGMP snooping: (Controle de multicast na rede)   
+    Multicast-to-unicast conversion:   Auto   
+    U-APSD: (Controle de pós save)    
+    802.11r fast roaming: Enable Disable (fara o roaming dos APs mais rápido)   
+    802.11r over the DS:  (Gerenciar quem não possuir a tecnologia 11r)    
+    Device-pipe collaborative roaming:  (faz interação entre o AP e o client para ficar automático)   
 
 NEXT 
   Semi-open network   
