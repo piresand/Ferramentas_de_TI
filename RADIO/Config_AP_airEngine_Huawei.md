@@ -40,6 +40,47 @@ Habilitando A CLOUD QUE ESTAVA DESABILITADA
     save
     reboot 
 
+## Criei um script completo da ativação divido em partes:
+        
+    ### PRIMEIRO ACESSO CONFIGS
+
+    admin
+    admin@huawei.com
+    insira_aqui_sua_novasenha
+    insira_aqui_sua_novasenha
+    sy
+    display esn
+
+    ### Copiar o SN, pois será utilizado para adição na controladora -  ESN of device:  2102353GES6RLB010330
+
+    ### ALTERANDO MODO FIRMWARE PARA MODO NUVEM (Esse modo reseta o AP)
+
+    ap-mode-switch cloud
+    Y
+
+    ### ACESSO E TROCA DE SENHA
+
+    admin
+    admin@huawei.com
+    y
+    admin@huawei.com
+    insira_aqui_sua_novasenha
+    insira_aqui_sua_novasenha
+    sy
+
+    ### ADOÇÃO E CONEXÃO PARA CLOUD
+
+    cloud-mng controller url dev-br.naas.huaweicloud.com port 10020
+    undo cloud-mng register-center disable
+    quit
+    save
+    y
+    reboot
+    y
+    y
+     
+    ### Fim do script, as demais configurações seram realizadas na controladora.
+ 
 Acessar a Controladora e configurar o AP: https://br.naas.huaweicloud.com/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252FcampusNCE%252FcampusNCEIndex.html
 
   Informações úteis;
@@ -70,7 +111,8 @@ NEXT
 NEXT (coleta estatísticas de tráfego)    
 
     Application traffic statistics collection:   
- 
+    
+    
 Baixar Firmwares: https://support.huawei.com/enterprise/en/wlan/airengine-6760-x1-pid-250566599/software?offeringId=250400201
 Documentação: https://support.huawei.com/hedex/hdx.do?docid=EDOC1100192519&lang=en&idPath=24030814%7C21782164%7C21782201%7C24017540%7C250566599
 Huawei AirEngine Wi-Fi 6 Technologies and Products: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/mooc/wdm/index_en_1.html
