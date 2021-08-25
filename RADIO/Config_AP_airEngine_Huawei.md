@@ -40,9 +40,7 @@ Habilitando A CLOUD QUE ESTAVA DESABILITADA
     save
     reboot 
 
-Acessar a Controladora e configurar o AP
-
-   https://br.naas.huaweicloud.com/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252FcampusNCE%252FcampusNCEIndex.html
+Acessar a Controladora e configurar o AP: https://br.naas.huaweicloud.com/unisso/login.action?service=%2Funisess%2Fv1%2Fauth%3Fservice%3D%252FcampusNCE%252FcampusNCEIndex.html
 
   Informações úteis;
   
