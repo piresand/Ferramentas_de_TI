@@ -113,14 +113,11 @@ NEXT (coleta estatísticas de tráfego)
     Application traffic statistics collection:   
     
     
-Baixar Firmwares: https://support.huawei.com/enterprise/en/wlan/airengine-6760-x1-pid-250566599/software?offeringId=250400201
-Documentação: https://support.huawei.com/hedex/hdx.do?docid=EDOC1100192519&lang=en&idPath=24030814%7C21782164%7C21782201%7C24017540%7C250566599
-Huawei AirEngine Wi-Fi 6 Technologies and Products: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/mooc/wdm/index_en_1.html
-WLAN NetTech TV: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/learning.html
-Introduction to Network Planning and Site Survey: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/mooc/wdm/index_en_4.html
-Curso HCIA-WLAN Course: https://talent.huaweiuniversity.com/portal/courses/HuaweiX+EBGTC00000105/about
-Curso HCIA-Routing & Switching Course: https://talent.huaweiuniversity.com/portal/courses/course-v1:HuaweiX+EBGTC00000385+Self-paced/about
-Curso HCIP-R&S-IERS Training V2.5 (OSPF e routing): https://talent.huaweiuniversity.com/portal/courses/course-v1:HuaweiX+EBGTC00000148+2018.7/about
-
-
-  
+Baixar Firmwares: https://support.huawei.com/enterprise/en/wlan/airengine-6760-x1-pid-250566599/software?offeringId=250400201   
+Documentação: https://support.huawei.com/hedex/hdx.do?docid=EDOC1100192519&lang=en&idPath=24030814%7C21782164%7C21782201%7C24017540%7C250566599   
+Huawei AirEngine Wi-Fi 6 Technologies and Products: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/mooc/wdm/index_en_1.html   
+WLAN NetTech TV: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/learning.html   
+Introduction to Network Planning and Site Survey: https://info.support.huawei.com/network/ptmngsys/Web/OnlineCourse_WLAN/en/mooc/wdm/index_en_4.html   
+Curso HCIA-WLAN Course: https://talent.huaweiuniversity.com/portal/courses/HuaweiX+EBGTC00000105/about   
+Curso HCIA-Routing & Switching Course: https://talent.huaweiuniversity.com/portal/courses/course-v1:HuaweiX+EBGTC00000385+Self-paced/about   
+Curso HCIP-R&S-IERS Training V2.5 (OSPF e routing): https://talent.huaweiuniversity.com/portal/courses/course-v1:HuaweiX+EBGTC00000148+2018.7/about   
