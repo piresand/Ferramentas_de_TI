@@ -11,16 +11,16 @@ O protocolo SCCP de sinalização é proprietário da Cisco utilizado para contr
 
 Existe um outro serviço conhecido como SCCP (Signalling Connection Control Part), que é um protocolo da camada de rede que fornece facilidades estendidas de roteamento, controle de fluxo, segmentação, orientação de conexão e correção de erros nas redes de telecomunicações do Signaling System 7.
 
-Solução: 
+    #### Solução: 
 
 Segue abaixo os comandos necessários para desabilitar VoIP ALG para tráfego SCCP.
 
-#config voip profile
-(profile)#edit default
-(default)#config sccp
-(sccp)#set status disable
-(sccp)#end
-(default)#end
+    #config voip profile
+    (profile)#edit default
+    (default)#config sccp
+    (sccp)#set status disable
+    (sccp)#end
+    (default)#end
 
 Fonte: https://kb.fortinet.com/kb/documentLink.do?externalID=FD46259
 https://www.dltec.com.br/blog/cisco/protocolos-de-sinalizacao-e-controle-de-dispositivos-voip-ccna-voice/
