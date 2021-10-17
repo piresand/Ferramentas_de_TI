@@ -120,3 +120,36 @@ Passw: zabbix ~ (Senha que vc criou)
 
 ![image](https://user-images.githubusercontent.com/30474126/121088587-f8ab9580-c7b3-11eb-8fed-6363760e4265.png)
 
+
+#### Lista de comandos úteis Linux
+
+- ls => Lista todos os arquivos do diretório.
+
+- df =>​ Mostra a quantidade de espaço usada no disco rígido.
+
+- top =>​ Mostra o uso da memória.
+
+- cd =>​ Acessa uma determinada pasta (diretório).
+
+- mkdir =>​ Cria um diretório.
+
+- rm =>​ Remove um arquivo/diretório.
+
+- cat =>​ Abre um arquivo.
+
+- vim =>​ para editar/criar arquivos com cores que informam o que e comentário e o que e em uso.
+
+- vi => editor de texto full-screem.
+
+- nano =>​ para editar/criar arquivos sem cores.
+
+- pico => editor de texto screen-oriented, tambem chamado de nano.​
+
+- find / -name + o que deseja => procura o diretório ou arquivo desejado.
+
+- ​tail -f arquivo => utilizado para lermos arquivos de logs.
+
+- chmod +x => deixa o arquivo executavel.
+
+- chmod => muda a proteção do diretorio ou arquivo, exemplo chmod 777
+    
