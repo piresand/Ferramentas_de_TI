@@ -6,7 +6,7 @@
 # Revision: 1.0
 # Date: 12/04/2022
 # Author: André Pires 
-# Github: https://github.com/piresand
+# Linkedin: https://www.linkedin.com/in/piresand
 # Adaptado: https://github.com/MagnoMonteCerqueira/Zabbix/tree/master/Zabbix_6.0/Instalalacoes/Scritps
 ##########################################################################################################
 
