@@ -12,7 +12,8 @@
     00 11 * * * root tcpdump -G 86400 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
 #### APÓS CRIAR ROTINA, NECESSÁRIO REINICIAR O SERVICE DO CONTRAB
     [root@ipbx ~]# service crond restart
- #### SNIFFER COM TCPDUMP      
+    
+#### SNIFFER COM TCPDUMP      
     [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv    
     [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 
     [root@ipbx ~]# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
