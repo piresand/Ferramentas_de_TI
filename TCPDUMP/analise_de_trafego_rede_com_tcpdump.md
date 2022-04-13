@@ -2,6 +2,21 @@
 	sudo tcpdump -i eth1 src 192.168.112.32 -w /home/caputura_ramal_35002.pcapng   
 
 	Coleta do host 192.168.112.32, através da porta 1 e gravação da captura em formato .pcapng (wireshark)  
+
+#### CRIAR ROTINA DE LOGS NO CRONTAB COM TCPDUMP - DURAÇÃO DE 4Hrs    
+    #log interfones    
+    30 17 * * * root tcpdump -G 14400 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
+    
+#### CRIAR ROTINA DE LOGS NO CRONTAB COM TCPDUMP - DURAÇÃO DE 24Hrs    
+    #log interfones    
+    00 11 * * * root tcpdump -G 86400 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
+#### APÓS CRIAR ROTINA, NECESSÁRIO REINICIAR O SERVICE DO CONTRAB
+    [root@ipbx ~]# service crond restart
+ #### SNIFFER COM TCPDUMP      
+    [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 -vv    
+    [root@ipbx ~]# sudo tcpdump -i eth0 port 5060 
+    [root@ipbx ~]# sudo tcpdump -i eth0 dst 100.64.5.183 -vvv
+	
 ##### Sniffer de rede com tcpdump
 
 	# sudo tcpdump -i eth0 port 5060 -vv
@@ -14,12 +29,13 @@ Referências [aqui](https://stackoverflow.com/questions/25731643/how-to-schedule
 #### Criação de rotina contrab - Tenha permisão de root para acesso da crontab    
 	sudo -i
 	crontab -e
+#### ABRIR E EDITAR O SERVILÇO CONTRAB    
+    ~ # nano  /etc/crontab    
 #### e então adicione a linha    
 	#log interfones com agendador   
 
 	00 11 * * * root tcpdump -G 36000 -W 1 -s 3000 -w /home/captura_ramais.pcapng -i eth1    
 #### Legenda de Flags do dump   
-
 	- A flag -G indica o número de segundos para a execução do dump.    
 	- Neste exemplo o dump é executado diariamente às 11h, come duração de 10 hrs de coleta. 
 	- O -W é o número de interações que o tcpdump executará.    
