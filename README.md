@@ -1,7 +1,5 @@
 # Ferramentas_de_TI   
 
-![figura-consultoria-e-governanca-de-ti-scitis](https://user-images.githubusercontent.com/30474126/109063568-ae4c5000-76bf-11eb-8764-c2b5e108cc47.png)
-
 #### [FIREWALL](https://github.com/piresand/Ferramentas_de_TI/tree/main/FIREWALL)   
 #### [MONITORAMENTO](https://github.com/piresand/Ferramentas_de_TI/tree/main/MONITORAMENTO)
 #### [RÁDIO](https://github.com/piresand/Ferramentas_de_TI/tree/main/RADIO)      
